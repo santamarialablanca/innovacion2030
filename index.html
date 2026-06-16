@@ -3,35 +3,38 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>EBI se hace aula | Colegio Santa María la Blanca</title>
+    <title>Departamento de Innovación Pedagógica | CSMB</title>
     <meta
       name="description"
-      content="Plan de acompañamiento pedagógico e innovación sostenible del Colegio Santa María la Blanca."
+      content="Propuesta 2026-2027 para evolucionar el Departamento de Innovación hacia un departamento de acompañamiento pedagógico."
     />
     <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="resumen.css" />
   </head>
   <body>
-    <div class="scroll-progress" aria-hidden="true"></div>
-
     <svg class="icon-sprite" aria-hidden="true" focusable="false">
-      <symbol id="icon-ear" viewBox="0 0 24 24">
-        <path d="M6.2 10.4a5.8 5.8 0 1 1 10.6 3.2c-.5.8-1.2 1.4-1.9 2.1-.7.6-1.2 1.3-1.2 2.2 0 1.9-1.5 3.4-3.4 3.4A3.4 3.4 0 0 1 7 18.7" />
-        <path d="M10 10.2a2 2 0 1 1 3.6 1.2c-.3.5-.8.9-1.2 1.3" />
+      <symbol id="icon-arrow" viewBox="0 0 24 24">
+        <path d="M5 12h14" />
+        <path d="m13 6 6 6-6 6" />
       </symbol>
-      <symbol id="icon-pen" viewBox="0 0 24 24">
-        <path d="m4 20 4.7-1 10.6-10.6a2.2 2.2 0 0 0 0-3.1l-.6-.6a2.2 2.2 0 0 0-3.1 0L5 15.3 4 20Z" />
-        <path d="m14.3 6 3.7 3.7" />
+      <symbol id="icon-check" viewBox="0 0 24 24">
+        <path d="m5 12 4.2 4.2L19 6.8" />
       </symbol>
-      <symbol id="icon-class" viewBox="0 0 24 24">
-        <path d="M4 4h16v12H4z" />
-        <path d="M8 20h8" />
-        <path d="M12 16v4" />
-        <path d="M8 9h8M8 12h5" />
+      <symbol id="icon-layers" viewBox="0 0 24 24">
+        <path d="m12 3 9 5-9 5-9-5 9-5Z" />
+        <path d="m3 12 9 5 9-5" />
+        <path d="m3 16 9 5 9-5" />
       </symbol>
-      <symbol id="icon-spark" viewBox="0 0 24 24">
-        <path d="m12 3 1.5 5.2L19 10l-5.5 1.8L12 17l-1.5-5.2L5 10l5.5-1.8L12 3Z" />
-        <path d="m18 15 .7 2.2 2.3.8-2.3.8L18 22l-.7-2.2-2.3-.8 2.3-.8L18 15Z" />
+      <symbol id="icon-target" viewBox="0 0 24 24">
+        <circle cx="12" cy="12" r="8" />
+        <circle cx="12" cy="12" r="3" />
+        <path d="M12 2v3M12 19v3M2 12h3M19 12h3" />
+      </symbol>
+      <symbol id="icon-users" viewBox="0 0 24 24">
+        <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" />
+        <circle cx="9" cy="7" r="4" />
+        <path d="M22 21v-2a4 4 0 0 0-3-3.87" />
+        <path d="M16 3.13a4 4 0 0 1 0 7.75" />
       </symbol>
       <symbol id="icon-chart" viewBox="0 0 24 24">
         <path d="M4 19V5" />
@@ -40,1197 +43,802 @@
         <path d="M12 16V8" />
         <path d="M16 16v-6" />
       </symbol>
-      <symbol id="icon-bridge" viewBox="0 0 24 24">
-        <path d="M3 18h18" />
-        <path d="M5 18c1-6 4.2-9 7-9s6 3 7 9" />
-        <path d="M7 18v-4M12 18v-6M17 18v-4" />
-        <path d="M4 9h16" />
-      </symbol>
-      <symbol id="icon-arrow" viewBox="0 0 24 24">
-        <path d="M5 12h14" />
-        <path d="m13 6 6 6-6 6" />
-      </symbol>
-      <symbol id="icon-check" viewBox="0 0 24 24">
-        <path d="m5 12 4.2 4.2L19 6.8" />
-      </symbol>
-      <symbol id="icon-target" viewBox="0 0 24 24">
-        <circle cx="12" cy="12" r="8" />
+      <symbol id="icon-eye" viewBox="0 0 24 24">
+        <path d="M2 12s3.5-7 10-7 10 7 10 7-3.5 7-10 7S2 12 2 12Z" />
         <circle cx="12" cy="12" r="3" />
-        <path d="M12 2v3M12 19v3M2 12h3M19 12h3" />
-      </symbol>
-      <symbol id="icon-layers" viewBox="0 0 24 24">
-        <path d="m12 3 9 5-9 5-9-5 9-5Z" />
-        <path d="m3 12 9 5 9-5" />
-        <path d="m3 16 9 5 9-5" />
-      </symbol>
-      <symbol id="icon-clipboard" viewBox="0 0 24 24">
-        <path d="M9 4h6l1 2h3v15H5V6h3l1-2Z" />
-        <path d="M9 11h6M9 15h4" />
-      </symbol>
-      <symbol id="icon-brain" viewBox="0 0 24 24">
-        <path d="M9 4.5A3.5 3.5 0 0 0 5.5 8c0 .4.1.8.2 1.1A3.7 3.7 0 0 0 4 12.2a3.8 3.8 0 0 0 4 3.8h1V4.5Z" />
-        <path d="M15 4.5A3.5 3.5 0 0 1 18.5 8c0 .4-.1.8-.2 1.1a3.7 3.7 0 0 1 1.7 3.1 3.8 3.8 0 0 1-4 3.8h-1V4.5Z" />
-        <path d="M9 16v1.5a2.5 2.5 0 0 0 5 0V16" />
       </symbol>
     </svg>
 
-    <header class="site-header" aria-label="Navegación principal">
+    <header class="summary-header" aria-label="Navegación principal">
       <a class="brand" href="#inicio" aria-label="Ir al inicio">
-        <img src="assets/colegio-skyline.png" alt="" />
-        <span>Santa María la Blanca</span>
+        <img src="assets/colegio.png" alt="Colegio Santa María la Blanca" />
       </a>
-      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
-        <span></span><span></span><span></span>
-        <span class="sr-only">Abrir navegación</span>
-      </button>
-      <nav id="site-nav">
-        <a href="#vision">Visión</a>
-        <a href="#revision-ebi">EBI 2030</a>
-        <a href="#modelo">Modelo</a>
-        <a href="#voz-docente">Voz Docente</a>
-        <a href="#servicios">Servicios</a>
-        <a href="#impacto">Impacto</a>
+      <nav>
+        <a href="#base">2025-26</a>
+        <a href="#diagnostico">Diagnóstico</a>
+        <a href="#organigrama">Estructura</a>
+        <a href="#aula">Aula</a>
+        <a href="#fricciones">Fricciones</a>
+        <a href="#propuesta">Propuesta</a>
         <a href="#ruta">Ruta</a>
-        <a href="#horizonte">Horizonte</a>
+        <a href="#impacto">Impacto</a>
+        <a href="#cierre">2029-30</a>
       </nav>
     </header>
 
     <main>
-      <section class="hero" id="inicio">
-        <div class="hero-bg" aria-hidden="true">
-          <img src="assets/innovacion-hero.png" alt="" />
+      <section class="hero-summary" id="inicio">
+        <div class="hero-image" aria-hidden="true">
+          <img src="assets/colegio-skyline.png" alt="" />
         </div>
-        <div class="hero-shade" aria-hidden="true"></div>
-        <div class="hero-content reveal">
-          <p class="eyebrow">Colegio Santa María la Blanca · 2026</p>
-          <h1>EBI se hace aula</h1>
-          <p class="hero-lead">
-            Plan de acompañamiento pedagógico e innovación sostenible para que
-            EBI vuelva a ser una experiencia viva, clara, acompañada y visible
-            en el aula.
+        <div class="hero-copy reveal">
+          <p class="eyebrow">Colegio Santa María la Blanca · Propuesta 2026-2027</p>
+          <h1>Departamento de Innovación Pedagógica</h1>
+          <p>
+            Del departamento de innovación al departamento de acompañamiento
+            pedagógico: escuchar, simplificar, conectar, evolucionar y medir para
+            que EBI se viva en el aula sin añadir más carga docente.
           </p>
           <div class="hero-actions" aria-label="Accesos rápidos">
-            <a class="btn primary" href="#voz-docente">
-              Empezar escuchando
+            <a class="btn primary" href="#diagnostico">
+              Ver diagnóstico
               <svg><use href="#icon-arrow" /></svg>
             </a>
-            <a class="btn ghost" href="#servicios">Ver servicios</a>
-          </div>
-          <div class="hero-metrics" aria-label="Resumen visual del plan">
-            <div>
-              <strong>6</strong>
-              <span>pasos de trabajo</span>
-            </div>
-            <div>
-              <strong>8</strong>
-              <span>proyectos WOW viables</span>
-            </div>
-            <div>
-              <strong>7</strong>
-              <span>líneas estratégicas</span>
-            </div>
+            <a class="btn ghost" href="index-largo.html">Versión larga</a>
           </div>
         </div>
-        <aside class="hero-panel reveal" aria-label="Idea esencial">
-          <span>Idea esencial</span>
-          <strong>
-            Innovar no es hacer más. Es enseñar mejor, acompañar mejor y aprender
-            con más sentido.
-          </strong>
+        <aside class="hero-thesis reveal">
+          <span>Idea fuerza</span>
+          <strong>No se trata de cubrir una salida. Es el momento de rediseñar el departamento para hacerlo más distribuido y sostenible.</strong>
         </aside>
       </section>
 
-      <section class="opening" id="vision" aria-labelledby="vision-title">
-        <div class="section-label reveal">Redefinición</div>
-        <div class="opening-copy reveal">
-          <h2 id="vision-title">De un departamento de proyectos a una estructura de acompañamiento pedagógico</h2>
-          <p>
-            El Departamento de Innovación debe situarse en el centro de la vida
-            pedagógica del colegio: un equipo que escucha, traduce, acompaña,
-            diseña, ordena, documenta y mide aquello que mejora los procesos de
-            enseñanza y aprendizaje.
-          </p>
-        </div>
-        <div class="level-grid" aria-label="Niveles de acompañamiento">
-          <article class="level-card reveal">
-            <div class="level-icon"><svg><use href="#icon-ear" /></svg></div>
-            <span>01</span>
-            <h3>Reflexión pedagógica</h3>
-            <p>
-              Ayudar a formular mejores preguntas sobre aprendizaje, barreras,
-              perfiles, evaluación auténtica y sentido de las experiencias.
-            </p>
+      <section class="situation-section" aria-labelledby="situation-title">
+      <div class="section-heading reveal">
+        <p class="eyebrow dark">Situación de partida</p>
+        <h2 id="situation-title">Un momento de transición para repensar la estructura</h2>
+        <p>
+          El Departamento de Innovación llega a una nueva etapa después de años
+          de trabajo acumulado, coordinación y construcción del Sistema EBI. Este
+          momento permite revisar qué estructura necesita hoy el colegio para
+          sostener, actualizar y acompañar mejor el modelo, sin limitarse a
+          reproducir la organización anterior.
+        </p>
+      </div>
+      <div class="situation-grid reveal" aria-label="Cambio de enfoque del departamento">
+        <article>
+          <span>Punto de partida</span>
+          <h3>Un trabajo previo muy valioso</h3>
+          <p>Gestión, coordinación, representación y desarrollo de una cultura de innovación propia.</p>
+        </article>
+        <article>
+          <span>Nueva etapa</span>
+          <h3>Una estructura mínima y distribuida</h3>
+          <p>Dirección estratégica, acompañamiento en aula, profundidad pedagógica y referentes de etapa.</p>
+        </article>
+          <article>
+            <span>Clave</span>
+            <h3>No hacer más innovación</h3>
+            <p>Ordenar, actualizar y hacer sostenible lo que ya existe para que EBI llegue mejor al aula.</p>
           </article>
-          <article class="level-card reveal">
-            <div class="level-icon"><svg><use href="#icon-pen" /></svg></div>
-            <span>02</span>
-            <h3>Diseño didáctico</h3>
-            <p>
-              Apoyar guías, proyectos, rincones, centros de aprendizaje, órbitas,
-              actividades, materiales e instrumentos de evaluación.
-            </p>
-          </article>
-          <article class="level-card reveal">
-            <div class="level-icon"><svg><use href="#icon-class" /></svg></div>
-            <span>03</span>
-            <h3>Implementación en aula</h3>
-            <p>
-              Observar, escuchar, recoger evidencias, ajustar propuestas y hacer
-              viable que las ideas lleguen al día a día docente.
-            </p>
-          </article>
-        </div>
-        <div class="model-map reveal" aria-label="Modelo visual de acompañamiento">
-          <div class="model-center">
-            <svg><use href="#icon-target" /></svg>
-            <strong>Innovación</strong>
-            <span>al servicio del aula</span>
-          </div>
-          <div class="model-node node-listen">
-            <span>Escucha</span>
-            <small>Necesidades reales</small>
-          </div>
-          <div class="model-node node-design">
-            <span>Diseño</span>
-            <small>Guías y proyectos</small>
-          </div>
-          <div class="model-node node-classroom">
-            <span>Aula</span>
-            <small>Implementación viable</small>
-          </div>
-          <div class="model-node node-evidence">
-            <span>Evidencias</span>
-            <small>Impacto medible</small>
-          </div>
-        </div>
-        <div class="shift-panel reveal" aria-label="Comparativa de cambio propuesto">
-          <div class="shift-column from">
-            <span>De</span>
-            <strong>Hacer más innovación</strong>
-            <small>Más proyectos, más documentos y más tareas para el profesorado.</small>
-          </div>
-          <div class="shift-arrow" aria-hidden="true">
-            <svg><use href="#icon-arrow" /></svg>
-          </div>
-          <div class="shift-column to">
-            <span>A</span>
-            <strong>Hacer visible y viable EBI</strong>
-            <small>Escucha, claridad por etapas, acompañamiento, aula, evidencias y cultura compartida.</small>
-          </div>
         </div>
       </section>
 
-      <section class="value-proposal" id="ebi-aula" aria-labelledby="value-title">
+      <section class="base-section" id="base" aria-labelledby="base-title">
         <div class="section-heading reveal">
-          <p class="eyebrow dark">Propuesta WOW</p>
-          <h2 id="value-title">No inventar otro sistema: hacer que EBI se vea, se entienda y se viva</h2>
+          <p class="eyebrow dark">Base 2025-2026</p>
+          <h2 id="base-title">Lo construido: evolución del Sistema EBI, IA, medición y comunicación</h2>
           <p>
-            Santa María la Blanca ya cuenta con un sistema pedagógico propio.
-            El reto es actualizarlo, simplificarlo y hacerlo aplicable en el aula,
-            con evidencias que puedan compartirse con docentes, familias y alumnos.
+            El plan 2025-2026 ya plantea evolucionar y seguir mejorando el
+            Sistema EBI y sus herramientas de personalización, incorporando una
+            reflexión crítica sobre la IA y la digitalización para responder a
+            nuevos desafíos tecnológicos y sociales.
           </p>
         </div>
-        <div class="reference-grid" aria-label="Patrones de referentes educativos">
-          <article class="reference-card reveal">
-            <span>Patrón La Salle</span>
-            <h3>Programas propios</h3>
-            <p>Implantación progresiva, adaptación al nivel madurativo, rutinas de aula, acompañamiento, evaluación y mejora continua.</p>
-          </article>
-          <article class="reference-card reveal">
-            <span>Patrón Fomento</span>
-            <h3>Educación personalizada</h3>
-            <p>Tutoría, colaboración con familias, formación permanente, trabajo en equipo e intercambio de experiencias docentes.</p>
-          </article>
-          <article class="reference-card reveal">
-            <span>Patrón colegios innovadores</span>
-            <h3>Innovación con identidad</h3>
-            <p>Acompañamiento personalizado, aprendizaje activo, bienestar, IA ética, pensamiento crítico y seguimiento individualizado.</p>
-          </article>
-        </div>
-        <div class="ebi-frame reveal" aria-label="Base pedagógica de EBI">
-          <div class="ebi-core">
-            <strong>EBI</strong>
-            <span>Sistema propio de mejora enseñanza-aprendizaje</span>
-          </div>
-          <div class="ebi-list">
-            <h3>Dos criterios</h3>
-            <p>Perfil de aprendizaje y relaciones significativas.</p>
-          </div>
-          <div class="ebi-list">
-            <h3>Cuatro principios</h3>
-            <p>Planificación centrada en el alumno, identidad docente, comunidad de aprendizaje y transformación del currículum.</p>
-          </div>
-          <div class="ebi-result">
-            <span>Resultado esperado</span>
-            <strong>Cada alumno aprende con sentido y cada docente se siente acompañado.</strong>
-          </div>
-        </div>
-      </section>
-
-      <section class="ebi-review" id="revision-ebi" aria-labelledby="review-title">
-        <div class="section-heading reveal">
-          <p class="eyebrow dark">Revisión estratégica</p>
-          <h2 id="review-title">EBI 2030: actualizar el sistema pedagógico sin perder su identidad</h2>
-          <p>
-            La propia PGA ya señala la actualización del Sistema EBI como área de
-            mejora: adecuarlo a nuevas necesidades de alumnado, familias y
-            profesorado, mejorar resultados y consolidar orientación, convivencia
-            y procedimientos compartidos.
-          </p>
-        </div>
-        <div class="review-statement reveal">
-          <strong>No necesitamos inventar un nuevo modelo.</strong>
-          <span>Necesitamos actualizar EBI para que vuelva a ser comprensible, aplicable, medible y diferencial.</span>
-        </div>
-        <div class="review-reasons" aria-label="Razones para revisar EBI ahora">
-          <article class="review-reason reveal">
+        <div class="axis-grid reveal" aria-label="Ejes del plan 2025-2026">
+          <article class="axis-card navy">
             <span>01</span>
-            <h3>El contexto educativo ha cambiado</h3>
-            <p>El alumnado aprende, se comunica y accede al conocimiento de formas distintas a las de hace diez años.</p>
+            <h3>Evaluación y medición</h3>
+            <p>Analizar calidad del aprendizaje, impacto de IA y participación de docentes, alumnado y familias.</p>
           </article>
-          <article class="review-reason reveal">
+          <article class="axis-card maroon">
             <span>02</span>
-            <h3>IA, datos y cultura digital</h3>
-            <p>La tecnología debe integrarse con criterio pedagógico, ético y transparente, incluyendo niveles claros de uso de IA en evaluación.</p>
+            <h3>Evolución metodológica</h3>
+            <p>Actualizar herramientas de aprendizaje y metodologías activas desde la realidad del aula.</p>
           </article>
-          <article class="review-reason reveal">
+          <article class="axis-card gold">
             <span>03</span>
-            <h3>Claridad para docentes y familias</h3>
-            <p>El profesorado necesita herramientas viables y las familias necesitan evidencias del valor diferencial del colegio.</p>
+            <h3>IA y digitalización</h3>
+            <p>Integrar IA con criterio pedagógico, sin perder personalización ni sentido educativo.</p>
           </article>
-        </div>
-        <div class="review-dimensions reveal" aria-label="Dimensiones de revisión del Sistema EBI">
-          <div class="dimension-title">
-            <span>8 dimensiones</span>
-            <strong>Qué debemos revisar de EBI</strong>
-          </div>
-          <div class="dimension-grid">
-            <span>Fundamentos pedagógicos</span>
-            <span>Lenguaje y relato</span>
-            <span>Herramientas EBI</span>
-            <span>Implementación por etapas</span>
-            <span>Evaluación y evidencias</span>
-            <span>Tecnología, IA y evaluación transparente</span>
-            <span>Acompañamiento docente</span>
-            <span>Comunicación de valor</span>
-          </div>
-        </div>
-        <div class="benchmark-panel reveal" aria-label="Benchmarking pedagógico">
-          <div>
-            <p class="eyebrow dark">Benchmarking</p>
-            <h3>Mirar fuera para mejorar dentro</h3>
-            <p>
-              No se trata de copiar modelos, sino de contrastar EBI con centros
-              referentes: cómo comunican su modelo, cómo lo concretan por etapas,
-              cómo acompañan al profesorado, cómo integran IA y cómo hacen visible
-              el aprendizaje. En IA conviene incorporar una escala de uso en
-              evaluación que dé claridad a docentes y estudiantes según los
-              objetivos de aprendizaje.
-            </p>
-          </div>
-          <div class="benchmark-questions">
-            <span>¿Qué hacen bien otros centros que podemos adaptar?</span>
-            <span>¿Qué hace ya bien CSMB y debemos visibilizar mejor?</span>
-            <span>¿Qué elementos de EBI son realmente diferenciales?</span>
-          </div>
-        </div>
-      </section>
-
-      <section class="manifesto" aria-label="Principios del plan">
-        <div class="manifesto-track reveal">
-          <span>Escuchar</span>
-          <span>Clarificar</span>
-          <span>Traducir</span>
-          <span>Acompañar</span>
-          <span>Probar</span>
-          <span>Diseñar</span>
-          <span>Ordenar</span>
-          <span>Documentar</span>
-          <span>Medir</span>
-          <span>Compartir</span>
-        </div>
-      </section>
-
-      <section class="operating-model" id="modelo" aria-labelledby="model-title">
-        <div class="section-heading reveal">
-          <p class="eyebrow dark">Modelo estratégico</p>
-          <h2 id="model-title">Escuchar, clarificar, acompañar, probar, medir y compartir</h2>
-          <p>
-            Un modelo sencillo y reconocible para que el Departamento de Innovación
-            funcione como servicio pedagógico real y no como generador de encargos.
-          </p>
-        </div>
-        <div class="process-flow" aria-label="Modelo operativo del Departamento de Innovación">
-          <article class="process-card reveal">
-            <span>01</span>
-            <h3>Escuchar</h3>
-            <p>Voz Docente, reuniones por etapa y mapa de fricciones EBI.</p>
-            <strong>Mapa de necesidades</strong>
-          </article>
-          <article class="process-card reveal">
-            <span>02</span>
-            <h3>Clarificar</h3>
-            <p>Qué significa EBI en cada etapa y qué evidencias buscamos.</p>
-            <strong>Mapa EBI por etapas</strong>
-          </article>
-          <article class="process-card reveal">
-            <span>03</span>
-            <h3>Acompañar</h3>
-            <p>Servicios docentes: guías, proyectos, evaluación, IA y aula.</p>
-            <strong>Cartera de servicios</strong>
-          </article>
-          <article class="process-card reveal">
+          <article class="axis-card soft">
             <span>04</span>
-            <h3>Probar</h3>
-            <p>Pilotos pequeños por etapa antes de escalar cambios.</p>
-            <strong>Laboratorio EBI</strong>
+            <h3>Comunicación clara</h3>
+            <p>Explicar a docentes y familias qué es EBI y cómo se desarrolla en cada etapa.</p>
           </article>
-          <article class="process-card reveal">
+          <article class="axis-card white">
             <span>05</span>
-            <h3>Medir</h3>
-            <p>Evidencias sencillas para tomar mejores decisiones.</p>
-            <strong>Panel de impacto</strong>
+            <h3>Difusión y Red EBI</h3>
+            <p>Compartir experiencias, fortalecer relaciones significativas y ser referente en innovación educativa.</p>
           </article>
-          <article class="process-card reveal">
-            <span>06</span>
-            <h3>Compartir</h3>
-            <p>Moodle, buenas prácticas, muestra anual y comunicación de valor.</p>
-            <strong>Cultura compartida</strong>
-          </article>
+        </div>
+        <div class="base-note reveal">
+          <strong>Lectura para 2026-2027:</strong>
+          <span>la propuesta no rompe el plan anterior; lo aterriza desde el diagnóstico actual y lo convierte en acompañamiento pedagógico real.</span>
         </div>
       </section>
 
-      <section class="voice-section" id="voz-docente" aria-labelledby="voice-title">
-        <div class="voice-copy reveal">
-          <p class="eyebrow dark">Primera acción estratégica</p>
-          <h2 id="voice-title">Voz Docente: escuchar para acompañar</h2>
-          <p>
-            Un proceso breve, claro y participativo para convertir la experiencia
-            diaria del profesorado en el punto de partida del plan anual de
-            innovación.
-          </p>
-        </div>
-        <div class="question-panel reveal" aria-label="Preguntas clave">
-          <button class="question active" type="button" data-question="0">
-            ¿Qué necesita hoy el profesorado para enseñar mejor?
-          </button>
-          <button class="question" type="button" data-question="1">
-            ¿Qué espera del Departamento de Innovación?
-          </button>
-          <button class="question" type="button" data-question="2">
-            ¿Qué aspectos de EBI necesitan claridad o simplificación?
-          </button>
-          <button class="question" type="button" data-question="3">
-            ¿Qué prácticas ya funcionan y pueden compartirse?
-          </button>
-          <button class="question" type="button" data-question="4">
-            ¿Qué fricciones están dificultando el trabajo docente?
-          </button>
-        </div>
-        <div class="voice-output reveal" aria-live="polite">
-          <span>Pregunta activa</span>
-          <strong id="active-question">¿Qué necesita hoy el profesorado para enseñar mejor?</strong>
-          <p id="active-answer">
-            Identificar necesidades reales antes de abrir nuevas líneas de trabajo:
-            tiempos, evaluación, materiales, coordinación, atención a la diversidad
-            y aplicación práctica de EBI.
-          </p>
-        </div>
-      </section>
-
-      <section class="listening-tools" aria-labelledby="tools-title">
+      <section class="diagnosis-section" id="diagnostico" aria-labelledby="diagnostico-title">
         <div class="section-heading reveal">
-          <p class="eyebrow dark">Escucha estructurada</p>
-          <h2 id="tools-title">Herramientas para escuchar al profesorado</h2>
-        </div>
-        <div class="tool-grid">
-          <article class="tool-card reveal">
-            <svg><use href="#icon-check" /></svg>
-            <h3>Cuestionario breve</h3>
-            <p>Preguntas concretas sobre necesidades, expectativas, dificultades e intereses formativos.</p>
-          </article>
-          <article class="tool-card reveal">
-            <svg><use href="#icon-check" /></svg>
-            <h3>Reuniones por etapa</h3>
-            <p>Prioridades de Escuelita, Infantil, Primaria, ESO, Bachillerato y FP.</p>
-          </article>
-          <article class="tool-card reveal">
-            <svg><use href="#icon-check" /></svg>
-            <h3>Mapa de fricciones</h3>
-            <p>Carga, confusión o dificultad en guías, evaluación, coordinación, tiempos, EBI o comunicación.</p>
-          </article>
-          <article class="tool-card reveal">
-            <svg><use href="#icon-check" /></svg>
-            <h3>Buenas prácticas</h3>
-            <p>Visibilizar lo que ya funciona y convertirlo en aprendizaje compartido.</p>
-          </article>
-        </div>
-        <blockquote class="return-message reveal">
-          “Esto es lo que nos habéis dicho; esto es lo que vamos a priorizar.”
-        </blockquote>
-        <div class="friction-map reveal" aria-label="Mapa visual de fricciones pedagógicas">
-          <div class="friction-copy">
-            <span>Mapa de fricciones</span>
-            <strong>Visualizar dónde se concentra la carga docente</strong>
-            <div class="visual-legend dark" aria-label="Leyenda del mapa de fricciones">
-              <span><i class="swatch gold"></i> Área a diagnosticar</span>
-              <span><i class="swatch track"></i> Dato pendiente de Voz Docente</span>
-            </div>
-          </div>
-          <div class="friction-bars">
-            <div class="friction-row">
-              <span>Diseño de guías</span>
-              <i></i>
-            </div>
-            <div class="friction-row">
-              <span>Evaluación</span>
-              <i></i>
-            </div>
-            <div class="friction-row">
-              <span>Coordinación</span>
-              <i></i>
-            </div>
-            <div class="friction-row">
-              <span>Herramientas digitales</span>
-              <i></i>
-            </div>
-            <div class="friction-row">
-              <span>Gestión de tiempos</span>
-              <i></i>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section class="services" id="servicios" aria-labelledby="services-title">
-        <div class="services-top reveal">
-          <p class="eyebrow dark">Del diagnóstico a la acción</p>
-          <h2 id="services-title">Una cartera clara de servicios para el profesorado</h2>
+          <p class="eyebrow dark">Diagnóstico actual</p>
+          <h2 id="diagnostico-title">CSMB como núcleo: un colegio, cuatro idiomas pedagógicos</h2>
           <p>
-            El departamento no está para pedir más, sino para ayudar mejor. Estos
-            servicios traducen las necesidades detectadas en apoyo concreto.
+            El colegio tiene un sistema pedagógico propio y mucho conocimiento
+            acumulado. La oportunidad no es crear desde cero, sino conectar lo
+            que ya existe. Hoy conviven lenguajes distintos por etapa, lo que
+            aporta riqueza, pero también genera fricción, duplicidad y pérdida
+            de coherencia.
           </p>
         </div>
-        <div class="service-board" data-filter="all">
-          <div class="filter-row" aria-label="Filtrar servicios">
-            <button class="filter active" type="button" data-filter="all">Todos</button>
-            <button class="filter" type="button" data-filter="design">Diseño</button>
-            <button class="filter" type="button" data-filter="assessment">Evaluación</button>
-            <button class="filter" type="button" data-filter="support">Acompañamiento</button>
-            <button class="filter" type="button" data-filter="resources">Recursos</button>
+        <div class="language-map reveal" aria-label="Mapa diagnóstico de núcleo común, identidades de etapa y puentes por construir">
+          <svg class="language-connectors" viewBox="0 0 1000 520" preserveAspectRatio="none" aria-hidden="true">
+            <path class="connector bridge" d="M500 260 C420 160 330 120 200 120" />
+            <path class="connector bridge" d="M500 260 C580 160 670 120 800 120" />
+            <path class="connector bridge" d="M500 260 C420 360 330 400 200 400" />
+            <path class="connector bridge" d="M500 260 C580 360 670 400 800 400" />
+            <path class="connector shared" d="M500 260 C455 235 420 220 370 210" />
+            <path class="connector shared" d="M500 260 C545 235 580 220 630 210" />
+            <path class="connector shared" d="M500 260 C455 285 420 300 370 310" />
+            <path class="connector shared" d="M500 260 C545 285 580 300 630 310" />
+          </svg>
+          <div class="language-core">
+            <strong>CSMB</strong>
+            <span>Núcleo común EBI</span>
+            <small>Perfil de aprendizaje + relaciones significativas</small>
           </div>
-          <div class="service-grid">
-            <article class="service-card reveal" data-category="design">
-              <div class="service-toggle" role="button" tabindex="0" aria-expanded="false">
-                <div class="service-icon"><svg><use href="#icon-pen" /></svg></div>
-                <span>Diseño</span>
-                <h3>Guías de aprendizaje</h3>
-                <p>Acompañamiento en el diseño o revisión de guías para hacerlas más claras y útiles.</p>
-                <em>Ver detalle</em>
-              </div>
-              <div class="service-detail">
-                <p><strong>Qué hacemos:</strong> revisamos objetivos, secuencia, evidencias, tiempos y nivel de autonomía del alumnado para que la guía sea más clara y aplicable.</p>
-                <p><strong>Entregable:</strong> guía ajustada, checklist de mejora y propuesta de próximos pasos.</p>
-                <p><strong>Cuándo pedirlo:</strong> cuando una guía genera dudas, carga o no termina de funcionar en aula.</p>
-              </div>
-            </article>
-            <article class="service-card reveal" data-category="design">
-              <div class="service-toggle" role="button" tabindex="0" aria-expanded="false">
-                <div class="service-icon"><svg><use href="#icon-layers" /></svg></div>
-                <span>Diseño</span>
-                <h3>Actividades competenciales</h3>
-                <p>Creación de experiencias activas, inclusivas y alineadas con objetivos de aprendizaje.</p>
-                <em>Ver detalle</em>
-              </div>
-              <div class="service-detail">
-                <p><strong>Qué hacemos:</strong> transformamos una actividad en una experiencia más activa, con reto claro, producto, cooperación y conexión con competencias.</p>
-                <p><strong>Entregable:</strong> plantilla de actividad, materiales base y criterios de evaluación asociados.</p>
-                <p><strong>Cuándo pedirlo:</strong> cuando una sesión necesita ganar sentido, participación o transferencia.</p>
-              </div>
-            </article>
-            <article class="service-card reveal" data-category="assessment">
-              <div class="service-toggle" role="button" tabindex="0" aria-expanded="false">
-                <div class="service-icon"><svg><use href="#icon-clipboard" /></svg></div>
-                <span>Evaluación</span>
-                <h3>Instrumentos prácticos</h3>
-                <p>Rúbricas, dianas, listas de cotejo, portfolios y autoevaluaciones sostenibles.</p>
-                <em>Ver detalle</em>
-              </div>
-              <div class="service-detail">
-                <p><strong>Qué hacemos:</strong> diseñamos instrumentos sencillos para recoger evidencias sin multiplicar burocracia ni duplicar trabajo.</p>
-                <p><strong>Entregable:</strong> rúbrica, diana, lista de cotejo o portfolio listo para usar.</p>
-                <p><strong>Cuándo pedirlo:</strong> cuando se quiere evaluar mejor pero de forma manejable.</p>
-              </div>
-            </article>
-            <article class="service-card reveal" data-category="support">
-              <div class="service-toggle" role="button" tabindex="0" aria-expanded="false">
-                <div class="service-icon"><svg><use href="#icon-class" /></svg></div>
-                <span>Acompañamiento</span>
-                <h3>Observación no evaluativa</h3>
-                <p>Mirada pedagógica cercana, feedback útil y ajustes para llevar propuestas al aula.</p>
-                <em>Ver detalle</em>
-              </div>
-              <div class="service-detail">
-                <p><strong>Qué hacemos:</strong> entramos al aula para observar una práctica acordada, recoger evidencias y conversar después sobre ajustes posibles.</p>
-                <p><strong>Entregable:</strong> devolución pedagógica breve con fortalezas, fricciones y una mejora prioritaria.</p>
-                <p><strong>Cuándo pedirlo:</strong> cuando se quiere probar algo nuevo o mejorar una dinámica concreta.</p>
-              </div>
-            </article>
-            <article class="service-card reveal" data-category="resources">
-              <div class="service-toggle" role="button" tabindex="0" aria-expanded="false">
-                <div class="service-icon"><svg><use href="#icon-layers" /></svg></div>
-                <span>Recursos</span>
-                <h3>Banco común</h3>
-                <p>Documentación de recursos, materiales y buenas prácticas para compartir cultura profesional.</p>
-                <em>Ver detalle</em>
-              </div>
-              <div class="service-detail">
-                <p><strong>Qué hacemos:</strong> ordenamos recursos existentes, documentamos buenas prácticas y las hacemos localizables por etapa, área y necesidad.</p>
-                <p><strong>Entregable:</strong> recurso etiquetado, ficha de uso y ejemplo de aplicación.</p>
-                <p><strong>Cuándo pedirlo:</strong> cuando una práctica funciona y merece compartirse con otros equipos.</p>
-              </div>
-            </article>
-            <article class="service-card reveal" data-category="support">
-              <div class="service-toggle" role="button" tabindex="0" aria-expanded="false">
-                <div class="service-icon"><svg><use href="#icon-brain" /></svg></div>
-                <span>Acompañamiento</span>
-                <h3>IA educativa con criterio</h3>
-                <p>Uso de IA para reducir carga docente y mejorar materiales sin perder sentido pedagógico.</p>
-                <em>Ver detalle</em>
-              </div>
-              <div class="service-detail">
-                <p><strong>Qué hacemos:</strong> ayudamos a usar IA para adaptar materiales, generar borradores, simplificar textos o crear propuestas, siempre con revisión docente.</p>
-                <p><strong>Entregable:</strong> flujo de trabajo, prompts base y material mejorado.</p>
-                <p><strong>Cuándo pedirlo:</strong> cuando la IA puede ahorrar tiempo sin sustituir el criterio pedagógico.</p>
-              </div>
-            </article>
-            <article class="service-card reveal" data-category="design">
-              <div class="service-toggle" role="button" tabindex="0" aria-expanded="false">
-                <div class="service-icon"><svg><use href="#icon-target" /></svg></div>
-                <span>Diseño</span>
-                <h3>Proyectos y órbitas</h3>
-                <p>Codiseño de proyectos, rincones, centros de aprendizaje y órbitas por etapa.</p>
-                <em>Ver detalle</em>
-              </div>
-              <div class="service-detail">
-                <p><strong>Qué hacemos:</strong> codiseñamos estructuras de aprendizaje con hilo conductor, roles, recursos, evaluación y momentos de seguimiento.</p>
-                <p><strong>Entregable:</strong> mapa del proyecto, secuencia de sesiones y recursos esenciales.</p>
-                <p><strong>Cuándo pedirlo:</strong> cuando se quiere crear o revisar una propuesta amplia por etapa o materia.</p>
-              </div>
-            </article>
-            <article class="service-card reveal" data-category="support">
-              <div class="service-toggle" role="button" tabindex="0" aria-expanded="false">
-                <div class="service-icon"><svg><use href="#icon-spark" /></svg></div>
-                <span>Acompañamiento</span>
-                <h3>Microformaciones</h3>
-                <p>Sesiones prácticas según necesidades reales, con aplicación inmediata en el aula.</p>
-                <em>Ver detalle</em>
-              </div>
-              <div class="service-detail">
-                <p><strong>Qué hacemos:</strong> diseñamos sesiones cortas centradas en una necesidad concreta y con práctica inmediata.</p>
-                <p><strong>Entregable:</strong> material de sesión, ejemplo resuelto y pauta de aplicación.</p>
-                <p><strong>Cuándo pedirlo:</strong> cuando varios docentes comparten una misma dificultad o quieren alinear criterios.</p>
-              </div>
-            </article>
-          </div>
+          <article class="lang-one">
+            <b>Identidad de etapa</b>
+            <span>Escuelita</span>
+            <p>Cuidado, vínculo, rutina y primera autonomía.</p>
+          </article>
+          <article class="lang-two">
+            <b>Identidad de etapa</b>
+            <span>Infantil</span>
+            <p>Proyectos, rincones, Descubriendo y aprendizaje manipulativo.</p>
+          </article>
+          <article class="lang-three">
+            <b>Identidad de etapa</b>
+            <span>Primaria</span>
+            <p>Guías, proyectos, hábitos, autonomía y evidencias.</p>
+          </article>
+          <article class="lang-four">
+            <b>Identidad de etapa</b>
+            <span>Secundaria</span>
+            <p>Materia, competencia, evaluación, orientación y futuro.</p>
+          </article>
+          <div class="bridge-pill bridge-top">Lenguaje EBI común</div>
+          <div class="bridge-pill bridge-left">Evidencias comparables</div>
+          <div class="bridge-pill bridge-right">Guías y recursos conectados</div>
+          <div class="bridge-pill bridge-bottom">Continuidad entre etapas</div>
+        </div>
+        <div class="legend reveal">
+          <span><i class="swatch navy"></i> Núcleo común: lo que debe ser reconocible en todo el colegio</span>
+          <span><i class="swatch maroon"></i> Identidad de etapa: lo propio de cada edad y contexto</span>
+          <span><i class="swatch gold"></i> Puentes por construir: acuerdos, formatos y evidencias compartidas</span>
+        </div>
+        <div class="diagnosis-reading reveal" aria-label="Lectura del diagnóstico">
+          <article>
+            <span>Lo que ya existe</span>
+            <strong>Un sistema común con mucha identidad</strong>
+            <p>EBI da marco, intención y lenguaje pedagógico propio al colegio.</p>
+          </article>
+          <article>
+            <span>Lo que se detecta</span>
+            <strong>Cuatro formas de aterrizarlo</strong>
+            <p>Cada etapa ha desarrollado prácticas útiles, pero no siempre conectadas entre sí.</p>
+          </article>
+          <article>
+            <span>Lo que toca construir</span>
+            <strong>Puentes concretos, no más carga</strong>
+            <p>Unificar guías, vocabulario, recursos y evidencias para que el paso entre etapas sea más claro.</p>
+          </article>
         </div>
       </section>
 
-      <section class="strategic-lines" aria-labelledby="lines-title">
+      <section class="audit-section" aria-labelledby="audit-title">
         <div class="section-heading reveal">
-          <p class="eyebrow dark">Líneas estratégicas</p>
-          <h2 id="lines-title">Siete líneas para convertir EBI en valor real de centro</h2>
+          <p class="eyebrow dark">Auditoría EBI 2026-2027</p>
+          <h2 id="audit-title">Medir si EBI sigue siendo coherente, útil y vigente</h2>
+          <p>
+            La revisión no debe plantearse como una acusación, sino como una
+            comprobación serena: qué dice el sistema, qué exige la legislación
+            actual, qué ocurre realmente en el aula y qué evidencias tenemos para
+            actualizar sin romper.
+          </p>
         </div>
-        <div class="line-grid" aria-label="Líneas estratégicas del Departamento de Innovación">
-          <article class="line-card reveal">
-            <span>01</span>
-            <h3>EBI claro y aplicable</h3>
-            <p>Mapa por etapas, lenguaje común, plantillas simplificadas y ejemplos reales.</p>
-          </article>
-          <article class="line-card reveal">
-            <span>02</span>
-            <h3>Profesorado acompañado</h3>
-            <p>Consulta pedagógica, codiseño, microformaciones y feedback no evaluativo.</p>
-          </article>
-          <article class="line-card reveal">
-            <span>03</span>
-            <h3>Innovación inclusiva</h3>
-            <p>Diseño universal, materiales accesibles, actividades multinivel y coordinación con Orientación.</p>
-          </article>
-          <article class="line-card reveal">
-            <span>04</span>
-            <h3>IA educativa con sentido</h3>
-            <p>Uso ético de IA para reducir carga docente y mejorar el diseño de aprendizaje.</p>
-          </article>
-          <article class="line-card reveal">
-            <span>05</span>
-            <h3>Evaluación y evidencias</h3>
-            <p>Rúbricas, dianas, portfolios, coevaluación y seguimiento de autonomía.</p>
-          </article>
-          <article class="line-card reveal">
-            <span>06</span>
-            <h3>Laboratorio pedagógico</h3>
-            <p>Pilotos por etapa, documentación breve, transferencia y escalado progresivo.</p>
-          </article>
-          <article class="line-card featured reveal">
-            <span>07</span>
-            <h3>Comunicación de valor</h3>
-            <p>Relato claro de EBI, evidencias de aula, infografías para familias y muestra anual.</p>
-          </article>
+        <div class="audit-grid reveal" aria-label="Preguntas de auditoría EBI">
+          <article><span>01</span><h3>Qué dice EBI</h3><p>Criterios, principios, herramientas, guías y expectativas del modelo propio.</p></article>
+          <article><span>02</span><h3>Qué dice la legislación</h3><p>Currículo vigente, competencias, evaluación, inclusión y autonomía progresiva.</p></article>
+          <article><span>03</span><h3>Qué ocurre en aula</h3><p>Observación directa, uso real de guías, tiempos, fricciones y lenguaje de etapa.</p></article>
+          <article><span>04</span><h3>Qué evidencias tenemos</h3><p>Productos, portfolios, instrumentos de evaluación, voz docente y percepción de familias.</p></article>
+          <article><span>05</span><h3>Qué debemos actualizar</h3><p>Guías, plantillas, procesos, recursos, IA, Moodle y comunicación de valor.</p></article>
         </div>
       </section>
 
-      <section class="pedagogy" aria-labelledby="pedagogy-title">
-        <div class="pedagogy-copy reveal">
-          <p class="eyebrow dark">Innovación profundamente pedagógica</p>
-          <h2 id="pedagogy-title">No añadir capas: ordenar, simplificar y potenciar EBI</h2>
+      <section class="org-section" id="organigrama" aria-labelledby="org-title">
+        <div class="section-heading reveal">
+          <p class="eyebrow dark">Rediseño del departamento</p>
+          <h2 id="org-title">Una estructura mínima para sostener y actualizar EBI</h2>
           <p>
-            Cualquier propuesta debe partir de preguntas educativas profundas y
-            acabar en una práctica más clara, conectada y viable.
+            No se trata de pedir más gente, sino de diferenciar tres funciones
+            necesarias para que el Sistema EBI se sostenga, se actualice y no
+            genere más carga docente: gestión estratégica, acompañamiento en aula
+            y profundidad pedagógica.
           </p>
-          <div class="radar-card" aria-label="Radar pedagógico EBI">
-            <div class="radar-chart" aria-hidden="true">
-              <span>Sentido</span>
+        </div>
+
+        <div class="org-chart reveal" aria-label="Organigrama propuesto 2026-2027">
+          <div class="org-node top">
+            <span>Dirección general</span>
+          </div>
+          <div class="org-line vertical"></div>
+          <div class="org-node strategy">
+            <span>Luismi · Dirección / Coordinación estratégica de Innovación Educativa</span>
+            <small>Equipo directivo o persona responsable pendiente de definir: visión, EBI, prioridades, indicadores y comunicación institucional.</small>
+          </div>
+          <div class="org-branches" aria-hidden="true"></div>
+          <div class="org-column raquel">
+            <div class="org-node role">
+              <span>Raquel</span>
+              <strong>Responsable de Innovación y Acompañamiento Pedagógico</strong>
+              <small>Conecta el colegio desde el aula, las etapas, EBI, IA y pilotos.</small>
+            </div>
+            <div class="org-tags">
+              <span>Aulas</span>
+              <span>EBI 2029-2030</span>
+              <span>IA</span>
+              <span>Etapas</span>
+              <span>Pilotos</span>
+            </div>
+          </div>
+          <div class="org-column specialist">
+            <div class="org-node role">
+              <span>Especialista</span>
+              <strong>Especialista Pedagógico EBI</strong>
+              <small>Guías, lectoescritura, accesibilidad, secuenciación y coherencia curricular.</small>
+            </div>
+            <div class="org-tags">
+              <span>Guías</span>
+              <span>Lenguaje</span>
+              <span>Recursos</span>
               <span>Inclusión</span>
-              <span>Evaluación</span>
-              <span>Autonomía</span>
-              <span>Sostenibilidad</span>
+              <span>Infantil-Primaria</span>
             </div>
+          </div>
+          <div class="org-column council">
+            <div class="org-node role">
+              <span>Referentes de etapa</span>
+              <strong>Escuelita, Infantil, Primaria, ESO, Bachillerato y FP</strong>
+              <small>Contraste mensual breve para priorizar, validar y transferir lo que funciona.</small>
+            </div>
+            <div class="org-tags">
+              <span>Escuelita</span>
+              <span>Infantil</span>
+              <span>Primaria</span>
+              <span>ESO</span>
+              <span>Bachillerato-FP</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="role-grid reveal" aria-label="Funciones principales por perfil">
+          <article class="role-card strategic">
+            <span>Estratégico</span>
+            <h3>Luismi · Dirección / coordinación estratégica</h3>
+            <p>No ejecuta el día a día. Lidera visión, evolución del sistema EBI, coordinación con dirección, presupuesto, alianzas externas, planificación anual y evaluación global.</p>
+          </article>
+          <article class="role-card raquel-card">
+            <span>Acompañamiento</span>
+            <h3>Rol de Raquel</h3>
+            <p>Observación en aula, simplificación pedagógica, actualización EBI, IA educativa, laboratorio pedagógico y coordinación real entre Escuelita, Infantil, Primaria, ESO y Bachillerato.</p>
+          </article>
+          <article class="role-card specialist-card">
+            <span>Lenguaje y recursos</span>
+            <h3>Especialista Pedagógico EBI</h3>
+            <p>Marco común de guías CSMB, revisión visual y lingüística, lectoescritura, secuenciación didáctica, accesibilidad cognitiva y coherencia curricular.</p>
+          </article>
+          <article class="role-card future">
+            <span>Horizonte paralelo</span>
+            <h3>Analista pedagógico y de evidencias</h3>
+            <p>Perfil para consolidar la medición de impacto iniciada en 2025-2026 con la Universidad Complutense y el grupo de investigación MESE, conectando iniciativas como PAT, Incluyo, Mentores, EBI, Descubriendo, Tribus y Orientación.</p>
+          </article>
+        </div>
+
+        <div class="function-matrix reveal" aria-label="Matriz de funciones del departamento">
+          <div class="matrix-head">Área</div>
+          <div class="matrix-head">Dirección Innovación</div>
+          <div class="matrix-head">Raquel</div>
+          <div class="matrix-head">Perfil pedagógico</div>
+          <div class="matrix-head">Subdirecciones</div>
+
+          <div>Plan anual</div><span>Lidera</span><span>Aporta propuestas</span><span>Aporta criterios</span><span>Valida prioridades</span>
+          <div>Escucha docente</div><span>Supervisa</span><span>Lidera</span><span>Participa</span><span>Facilita acceso</span>
+          <div>Observación en aula</div><span>Valida calendario</span><span>Lidera</span><span>Observa aspectos pedagógicos</span><span>Coordina docentes</span>
+          <div>Revisión de guías</div><span>Prioriza</span><span>Mejora formato y flujo</span><span>Lidera revisión pedagógica</span><span>Valida por etapa</span>
+          <div>gptEBI e IA</div><span>Supervisa</span><span>Lidera piloto</span><span>Aporta criterios</span><span>Ayuda a escalar</span>
+          <div>Moodle</div><span>Valida estructura</span><span>Lidera diseño y migración</span><span>Revisa calidad pedagógica</span><span>Define permisos</span>
+        </div>
+
+        <div class="no-role reveal" aria-label="Límites del rol de Raquel">
+          <div>
+            <p class="eyebrow">Para que sea sostenible</p>
+            <h3>El rol de Raquel no debe convertirse en producción infinita</h3>
             <p>
-              Radar de revisión para comprobar que una propuesta no solo es
-              novedosa, sino clara, inclusiva, evaluable y viable.
+              Pasar de hacer por el docente a diseñar estructuras que ayuden al
+              docente a hacerlo con menos carga.
             </p>
-            <div class="visual-legend dark">
-              <span><i class="swatch gold"></i> Fortaleza de la propuesta</span>
-              <span><i class="swatch line"></i> Escala de revisión</span>
+            <p>
+              El objetivo del rol no es absorber tareas del profesorado, sino
+              transformar problemas repetidos en soluciones comunes.
+            </p>
+          </div>
+          <div class="no-role-grid">
+            <span>No arreglar todos los documentos.</span>
+            <span>No hacer todos los diseños.</span>
+            <span>No resolver todos los problemas tecnológicos.</span>
+            <span>No sustituir al docente creando materiales.</span>
+            <span>No fiscalizar si se aplica bien EBI.</span>
+            <span>No decorar proyectos.</span>
+          </div>
+        </div>
+        <div class="governance-rhythm reveal" aria-label="Funcionamiento del departamento">
+          <div>
+            <p class="eyebrow dark">Cómo funcionará</p>
+            <h3>Gobernanza sencilla para que no se disperse</h3>
+          </div>
+          <div class="governance-rhythm-grid">
+            <span>Reunión mensual con subdirecciones.</span>
+            <span>Reunión breve con referentes de etapa.</span>
+            <span>Entrada pactada en aula.</span>
+            <span>Informe trimestral de fricciones y avances.</span>
+            <span>Validación de pilotos antes de escalar.</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="classroom-section" id="aula" aria-labelledby="aula-title">
+        <div class="section-heading reveal">
+          <p class="eyebrow dark">Aprendizajes 2025-2026</p>
+          <h2 id="aula-title">La innovación empieza entrando en el aula</h2>
+          <p>
+            Durante este curso se ha trabajado desde la iniciativa y la escucha
+            activa al docente. El siguiente paso es convertir esa escucha en un
+            horario pactado de presencia dentro del aula para entender necesidades
+            desde dentro, sin evaluar y sin generar más trabajo.
+          </p>
+        </div>
+        <div class="classroom-layout">
+          <div class="project-stack reveal" aria-label="Ejemplos reales de trabajo">
+            <article>
+              <span>Infantil</span>
+              <h3>Proyecto Descubriendo</h3>
+              <p>Observación directa en clases para comprender cómo se aplica hoy, qué funciona y dónde puede mejorar.</p>
+            </article>
+            <article>
+              <span>Orientación</span>
+              <h3>Herramientas para el día a día</h3>
+              <p>Trabajo conjunto para generar apoyos que faciliten la práctica docente y reduzcan fricciones.</p>
+            </article>
+            <article>
+              <span>Piloto</span>
+              <h3>gptEBI para profesorado</h3>
+              <p>Asistente en fase piloto para apoyar diseño, adaptación, revisión y generación de materiales con criterio EBI.</p>
+            </article>
+          </div>
+          <div class="schedule-card reveal">
+            <p class="eyebrow dark">Innovación dentro del aula</p>
+            <h3>Un horario pactado para observar, escuchar y acompañar</h3>
+            <div class="schedule-grid" aria-label="Propuesta de horario de aula">
+              <span><b>Lunes</b></span>
+              <span><b>Martes</b></span>
+              <span><b>Miércoles</b></span>
+              <span><b>Jueves</b></span>
+              <span><b>Viernes</b></span>
             </div>
+            <p class="data-note">
+              La clave es observar prácticas reales, detectar carga innecesaria,
+              recoger evidencias y preguntar: qué te haría la vida más fácil.
+            </p>
           </div>
-        </div>
-        <div class="question-orbit reveal" aria-label="Preguntas pedagógicas">
-          <div class="orbit-center">
-            <svg><use href="#icon-spark" /></svg>
-            <span>Pedagogía</span>
-          </div>
-          <span>¿Qué aprendizaje queremos provocar?</span>
-          <span>¿Qué sentido tiene para el alumno?</span>
-          <span>¿Qué barreras pueden aparecer?</span>
-          <span>¿Qué evidencias nos dirán si funciona?</span>
-          <span>¿Cómo será sostenible para el docente?</span>
-          <span>¿Qué autonomía se cede al alumno?</span>
         </div>
       </section>
 
-      <section class="bridge" aria-labelledby="bridge-title">
+      <section class="frictions-section" id="fricciones" aria-labelledby="fricciones-title">
         <div class="section-heading reveal">
-          <p class="eyebrow dark">Función estratégica</p>
-          <h2 id="bridge-title">El Departamento de Innovación como puente</h2>
+          <p class="eyebrow dark">Fricciones detectadas</p>
+          <h2 id="fricciones-title">El problema no es la falta de innovación; es el exceso de carga</h2>
+          <p>
+            El departamento debe evitar convertirse en una fuente de nuevas
+            tareas. La propuesta 2026-2027 parte de reducir fricciones: formatos
+            dispersos, guías poco homogéneas, duplicidad de documentos, Google
+            Sites difíciles de ordenar y materiales que se recrean desde cero.
+          </p>
         </div>
-        <div class="bridge-layout">
-          <div class="bridge-mark reveal">
-            <svg><use href="#icon-bridge" /></svg>
-            <strong>Conecta</strong>
-          </div>
-          <div class="bridge-pairs">
-            <span class="reveal" data-flow="centro">Proyecto Educativo <b>realidad del aula</b></span>
-            <span class="reveal" data-flow="ebi">Sistema EBI <b>necesidades por etapa</b></span>
-            <span class="reveal" data-flow="equipo">Dirección <b>profesorado</b></span>
-            <span class="reveal" data-flow="apoyo">Orientación <b>equipos docentes</b></span>
-            <span class="reveal" data-flow="digital">Tecnología <b>pedagogía</b></span>
-            <span class="reveal" data-flow="formacion">Formación <b>aplicación real</b></span>
-          </div>
+        <div class="friction-dashboard reveal" aria-label="Mapa de fricciones">
+          <article class="friction-card high">
+            <span>Alta prioridad</span>
+            <h3>Revisión de guías</h3>
+            <p>Formato visual común, misma línea gráfica, lenguaje compartido y coherencia con EBI y legislación vigente.</p>
+          </article>
+          <article class="friction-card high">
+            <span>Alta prioridad</span>
+            <h3>Exceso de carga docente</h3>
+            <p>Menos documentos, menos duplicidad, más plantillas útiles y acompañamiento que ahorre tiempo.</p>
+          </article>
+          <article class="friction-card medium">
+            <span>Prioridad media</span>
+            <h3>Conocimiento disperso</h3>
+            <p>Drive y Sites no siempre ofrecen orden, permisos claros, trazabilidad ni seguridad suficiente.</p>
+          </article>
+          <article class="friction-card medium">
+            <span>Prioridad media</span>
+            <h3>Lenguajes distintos</h3>
+            <p>Cada etapa ha desarrollado vocabulario propio; falta un diccionario común sin borrar identidad.</p>
+          </article>
+          <article class="friction-card low">
+            <span>Dato pendiente</span>
+            <h3>Impacto real</h3>
+            <p>Necesitamos línea base: claridad docente, utilidad percibida, evidencias de aula y autonomía del alumnado.</p>
+          </article>
         </div>
-        <div class="visual-legend bridge-legend reveal" aria-label="Leyenda del mapa de conexiones">
-          <span><i class="swatch maroon"></i> Cultura y equipo</span>
-          <span><i class="swatch navy"></i> Sistema y pedagogía</span>
-          <span><i class="swatch gold"></i> Apoyo y aplicación</span>
-        </div>
-      </section>
-
-      <section class="stage-map" aria-labelledby="stage-map-title">
-        <div class="section-heading reveal">
-          <p class="eyebrow dark">Lectura por etapas</p>
-          <h2 id="stage-map-title">Una matriz para ver prioridades sin perder la visión de centro</h2>
-        </div>
-        <div class="stage-grid reveal" aria-label="Matriz visual de prioridades por etapa">
-          <div class="stage-head"></div>
-          <div class="stage-head">Guías</div>
-          <div class="stage-head">Evaluación</div>
-          <div class="stage-head">IA</div>
-          <div class="stage-head">Inclusión</div>
-          <div class="stage-name">Infantil</div>
-          <span class="heat high"></span><span class="heat mid"></span><span class="heat low"></span><span class="heat high"></span>
-          <div class="stage-name">Primaria</div>
-          <span class="heat high"></span><span class="heat high"></span><span class="heat mid"></span><span class="heat mid"></span>
-          <div class="stage-name">ESO</div>
-          <span class="heat mid"></span><span class="heat high"></span><span class="heat high"></span><span class="heat mid"></span>
-          <div class="stage-name">Bachillerato</div>
-          <span class="heat low"></span><span class="heat high"></span><span class="heat high"></span><span class="heat low"></span>
-          <div class="stage-name">FP</div>
-          <span class="heat mid"></span><span class="heat mid"></span><span class="heat high"></span><span class="heat mid"></span>
-        </div>
-        <div class="visual-legend stage-legend reveal" aria-label="Leyenda de prioridades por etapa">
-          <span><i class="swatch maroon"></i> Prioridad alta</span>
+        <div class="legend reveal">
+          <span><i class="swatch maroon"></i> Alta prioridad</span>
           <span><i class="swatch gold"></i> Prioridad media</span>
-          <span><i class="swatch muted"></i> Prioridad baja o no prioritaria</span>
+          <span><i class="swatch muted"></i> Dato pendiente de medir</span>
         </div>
       </section>
 
-      <section class="impact" id="impacto" aria-labelledby="impact-title">
-        <div class="impact-copy reveal">
-          <p class="eyebrow dark">Sostenible y medible</p>
-          <h2 id="impact-title">Pocas prioridades, bien acompañadas y evaluadas</h2>
+      <section class="focus-section" id="propuesta" aria-labelledby="propuesta-title">
+        <div class="section-heading reveal">
+          <p class="eyebrow dark">Propuesta 2026-2027</p>
+          <h2 id="propuesta-title">Un colegio, un lenguaje, una experiencia</h2>
           <p>
-            La innovación debe ser útil para el profesorado, viable en los tiempos
-            reales del centro y observable mediante evidencias sencillas.
-          </p>
-          <p class="data-note">
-            Estos indicadores no son resultados actuales: son campos de seguimiento
-            que deben fijarse tras Voz Docente y revisarse durante 2026.
+            La propuesta no es hacer más innovación, sino convertir el
+            departamento en una estructura de acompañamiento pedagógico que ayude
+            a que lo importante ocurra en el aula.
           </p>
         </div>
-        <div class="metric-grid" aria-label="Indicadores de seguimiento por definir">
-          <article class="metric reveal">
-            <strong>A definir</strong>
-            <span>docentes acompañados</span>
+        <div class="department-lines reveal" aria-label="Cinco líneas del Departamento de Innovación Pedagógica">
+          <article class="line-pillar navy">
+            <svg><use href="#icon-eye" /></svg>
+            <span>Escuchar</span>
+            <h3>Entrar en las aulas</h3>
+            <p>Voz docente, observación pactada y mapa de necesidades reales.</p>
           </article>
-          <article class="metric reveal">
-            <strong>A definir</strong>
-            <span>guías o proyectos revisados</span>
+          <article class="line-pillar gold">
+            <svg><use href="#icon-layers" /></svg>
+            <span>Conectar</span>
+            <h3>Unir etapas</h3>
+            <p>Lenguaje común, puentes entre etapas y banco compartido de recursos.</p>
           </article>
-          <article class="metric reveal">
-            <strong>A definir</strong>
-            <span>recursos publicados en Moodle</span>
+          <article class="line-pillar maroon">
+            <svg><use href="#icon-check" /></svg>
+            <span>Simplificar</span>
+            <h3>Reducir carga docente</h3>
+            <p>Menos duplicidades, menos documentos y plantillas realmente útiles.</p>
           </article>
-          <article class="metric reveal">
-            <strong>A definir</strong>
-            <span>buenas prácticas documentadas</span>
+          <article class="line-pillar soft">
+            <svg><use href="#icon-target" /></svg>
+            <span>Actualizar</span>
+            <h3>EBI, IA y metodologías</h3>
+            <p>Horizonte EBI 2029-2030, gptEBI, pilotos, guías actualizadas e innovación con criterio.</p>
+          </article>
+          <article class="line-pillar white">
+            <svg><use href="#icon-users" /></svg>
+            <span>Acompañar</span>
+            <h3>No imponer</h3>
+            <p>Estar cerca del docente para ayudar a que enseñar sea más sencillo.</p>
           </article>
         </div>
-        <div class="indicator-list reveal">
-          <span>Valoración de utilidad de las formaciones</span>
-          <span>Percepción de reducción de carga</span>
-          <span>Nivel de implementación EBI por etapa</span>
-          <span>Variedad de evidencias de aprendizaje</span>
-          <span>Autonomía del alumnado</span>
-          <span>Coordinación entre equipos</span>
+        <div class="measure-band reveal">
+          <div>
+            <span>Medir</span>
+            <strong>Índice de Fricción Docente</strong>
+            <p>Un indicador trimestral para saber si el plan reduce carga, aumenta claridad y mejora el acompañamiento.</p>
+          </div>
+          <div class="mini-indicators">
+            <span>Tiempo perdido</span>
+            <span>Ayuda percibida</span>
+            <span>Claridad EBI</span>
+            <span>Apoyo recibido</span>
+            <span>Materiales reutilizados</span>
+          </div>
         </div>
-        <div class="impact-dashboard reveal" aria-label="Dashboard visual de impacto">
-          <article class="donut-card">
-            <div class="donut-chart" aria-hidden="true">
-              <span>Meta</span>
-            </div>
-            <h3>Claridad percibida</h3>
-            <p>Campo de seguimiento para valorar si las propuestas simplifican la aplicación de EBI.</p>
-            <div class="visual-legend compact">
-              <span><i class="swatch navy"></i> Avance registrado</span>
-              <span><i class="swatch muted"></i> Pendiente de medir</span>
-            </div>
+      </section>
+
+      <section class="guide-section" aria-labelledby="guide-title">
+        <div class="section-heading reveal">
+          <p class="eyebrow dark">Herramienta clave</p>
+          <h2 id="guide-title">Plan de actualización, coherencia y mejora de las guías EBI</h2>
+          <p>
+            Las guías no son un material secundario: organizan el proceso de
+            aprendizaje, pueden servir como programación de aula y ayudan a
+            sostener la autonomía del alumno. La revisión debe sonar a mejora,
+            no a corrección.
+          </p>
+        </div>
+        <div class="guide-flow reveal" aria-label="Fases de actualización de guías EBI">
+          <article>
+            <span>01</span>
+            <h3>Inventario</h3>
+            <p>Qué guías existen, dónde están, quién las usa, formato, fecha de actualización, duplicidades y uso real.</p>
           </article>
-          <article class="mini-bars">
-            <h3>Evidencias de aprendizaje</h3>
-            <div><span>Línea base</span><i></i></div>
-            <div><span>Piloto</span><i></i></div>
-            <div><span>Escalado</span><i></i></div>
-            <div class="visual-legend compact">
-              <span><i class="swatch maroon"></i> Evidencia a recoger</span>
-              <span><i class="swatch muted"></i> Pendiente de medir</span>
-            </div>
+          <article>
+            <span>02</span>
+            <h3>Diagnóstico</h3>
+            <p>Currículo, objetivos, diversidad de actividades, evaluación, ritmos, lenguaje claro y coherencia visual.</p>
           </article>
-          <article class="evidence-matrix">
-            <h3>Matriz de seguimiento</h3>
+          <article>
+            <span>03</span>
+            <h3>Plantilla flexible</h3>
+            <p>Una estructura común que respete la etapa: Infantil no necesita la misma guía que ESO, pero sí una columna vertebral.</p>
+          </article>
+          <article>
+            <span>04</span>
+            <h3>Pilotos</h3>
+            <p>Descubriendo en Infantil, 1º-2º Primaria, Educación Física y una guía de ESO apoyada por gptEBI.</p>
+          </article>
+          <article>
+            <span>05</span>
+            <h3>Escalado</h3>
+            <p>Solo se escala lo que haya funcionado, reducido carga y mejorado claridad para el docente.</p>
+          </article>
+        </div>
+        <div class="guide-checklist reveal" aria-label="Matriz de revisión de guías EBI">
+          <div class="check-head">Criterio</div>
+          <div class="check-head">Pregunta de revisión</div>
+          <div>Currículo</div><span>¿La guía responde a los criterios y competencias actuales?</span>
+          <div>EBI</div><span>¿Se reconoce el recorrido Activa, Investiga, Desarrolla, Relaciona, Evalúa o su equivalente por etapa?</span>
+          <div>Inclusión</div><span>¿Tiene apoyos visuales, lenguaje claro y alternativas?</span>
+          <div>Carga docente</div><span>¿Facilita el trabajo o lo complica?</span>
+          <div>Evaluación</div><span>¿Recoge evidencias claras de aprendizaje?</span>
+          <div>Diseño</div><span>¿Tiene una línea visual común y comprensible?</span>
+          <div>Actualización</div><span>¿Cuándo fue revisada por última vez?</span>
+        </div>
+        <div class="pilot-highlight reveal" aria-label="Piloto real de Educación Física">
+          <div>
+            <p class="eyebrow">Piloto real detectado</p>
+            <h3>Gamificación en Educación Física</h3>
             <p>
-              La medición se entiende como una lectura sencilla de utilidad,
-              aplicación en aula y cultura compartida.
+              Una propuesta visible para responder a una necesidad ya expresada:
+              mejorar motivación, autonomía, cooperación y seguimiento del
+              progreso mediante retos analógicos o híbridos según etapa.
             </p>
-            <div class="tracking-table" aria-label="Qué se mide y con qué evidencia">
-              <div class="tracking-head">Dimensión</div>
-              <div class="tracking-head">Qué se mide</div>
-              <div class="tracking-head">Evidencia</div>
-              <div class="tracking-head">Registro</div>
-
-              <div class="tracking-tag navy">Aula</div>
-              <div>Aplicación real de guías, proyectos o actividades EBI.</div>
-              <div>Ejemplos de aula, observación no evaluativa y ajustes realizados.</div>
-              <div>Ficha breve de acompañamiento.</div>
-
-              <div class="tracking-tag gold">Moodle</div>
-              <div>Recursos documentados, localizables y reutilizables por etapa.</div>
-              <div>Guías, rúbricas, plantillas, buenas prácticas y versiones actualizadas.</div>
-              <div>Base de conocimiento Moodle.</div>
-
-              <div class="tracking-tag maroon">Profesorado</div>
-              <div>Utilidad percibida, reducción de carga y claridad del proceso.</div>
-              <div>Voz Docente, valoración de microformaciones y reuniones de etapa.</div>
-              <div>Devolución trimestral.</div>
-
-              <div class="tracking-tag muted">Alumnado</div>
-              <div>Variedad de evidencias, autonomía y participación en el aprendizaje.</div>
-              <div>Productos, portfolios, dianas, autoevaluaciones y evidencias competenciales.</div>
-              <div>Revisión por equipos docentes.</div>
-            </div>
-            <div class="visual-legend compact">
-              <span><i class="swatch navy"></i> Evidencias de aula</span>
-              <span><i class="swatch gold"></i> Recursos en Moodle</span>
-              <span><i class="swatch maroon"></i> Voz y formación docente</span>
-              <span><i class="swatch muted"></i> Evidencias de alumnado</span>
-            </div>
-          </article>
+          </div>
+          <div class="pilot-grid">
+            <span><b>Etapas</b> Primaria y ESO</span>
+            <span><b>Formato</b> retos visuales y progresivos</span>
+            <span><b>Evidencias</b> participación, esfuerzo y cooperación</span>
+            <span><b>Relación EBI</b> autonomía, decisiones y relaciones significativas</span>
+          </div>
+        </div>
+        <div class="orientation-alliance reveal">
+          <div>
+            <p class="eyebrow dark">Alianza Innovación + Orientación</p>
+            <h3>Complementar, no invadir</h3>
+            <p>
+              Orientación detecta, asesora y acompaña necesidades del alumnado.
+              Innovación transforma esas necesidades en herramientas, materiales,
+              estructuras y pilotos aplicables en aula.
+            </p>
+          </div>
+          <div class="alliance-grid">
+            <span>Respuesta a la diversidad</span>
+            <span>Guías más accesibles</span>
+            <span>Recursos visuales y manipulativos</span>
+            <span>Lectoescritura y comprensión</span>
+            <span>Medidas ordinarias de aula</span>
+            <span>Herramientas para docentes</span>
+          </div>
         </div>
       </section>
 
-      <section class="wow" aria-labelledby="wow-title">
-        <div class="wow-copy reveal">
-          <p class="eyebrow dark">Impacto WOW</p>
-          <h2 id="wow-title">Un departamento útil, cercano y facilitador</h2>
-          <p>
-            El cambio real será que el profesorado quiera acudir al departamento
-            porque encuentra ayuda, claridad, recursos y acompañamiento.
-          </p>
-        </div>
-        <div class="quote-stack reveal" aria-label="Situaciones docentes">
-          <p>“Tengo una guía que no termina de funcionar, ¿me ayudas a darle una vuelta?”</p>
-          <p>“Quiero evaluar mejor, pero no sé cómo hacerlo sin complicarme.”</p>
-          <p>“Tengo alumnos con ritmos muy distintos, ¿cómo puedo adaptar esta actividad?”</p>
-          <p>“Quiero usar IA, pero con criterio y sin perder el sentido pedagógico.”</p>
-          <p>“Quiero hacer algo diferente, pero viable.”</p>
-        </div>
-      </section>
-
-      <section class="roadmap" id="ruta" aria-labelledby="roadmap-title">
+      <section class="route-section" id="ruta" aria-labelledby="ruta-title">
         <div class="section-heading reveal">
           <p class="eyebrow dark">Hoja de ruta</p>
-          <h2 id="roadmap-title">Ruta de implantación 2026</h2>
+          <h2 id="ruta-title">Del diagnóstico actual al acompañamiento estable</h2>
         </div>
-        <div class="timeline" aria-label="Fases del plan">
-          <article class="timeline-item reveal">
-            <span>1</span>
-            <h3>Diagnóstico EBI</h3>
-            <p>Escucha a profesorado, familias y alumnado; documentación, buenas prácticas y fricciones.</p>
-          </article>
-          <article class="timeline-item reveal">
-            <span>2</span>
-            <h3>Benchmarking</h3>
-            <p>Análisis de referentes, tendencias educativas, IA, bienestar y comunicación de valor.</p>
-          </article>
-          <article class="timeline-item reveal">
-            <span>3</span>
-            <h3>Marco actualizado</h3>
-            <p>Relato EBI 2030, mapa por etapas, herramientas prioritarias e indicadores de impacto.</p>
-          </article>
-          <article class="timeline-item reveal">
-            <span>4</span>
-            <h3>Pilotos de aula</h3>
-            <p>Experiencias pequeñas por etapa para validar herramientas antes de escalarlas.</p>
-          </article>
-          <article class="timeline-item reveal">
-            <span>5</span>
-            <h3>Acompañamiento</h3>
-            <p>Microformaciones, codiseño, observación no evaluativa, mentoría y recursos Moodle.</p>
-          </article>
-          <article class="timeline-item reveal">
-            <span>6</span>
-            <h3>Cultura de valor</h3>
-            <p>Infografías por etapa, memoria pedagógica, muestra “EBI se hace aula” y evidencias para familias.</p>
-          </article>
-        </div>
-        <div class="roadmap-board reveal" aria-label="Calendario visual 2026">
-          <div class="month active">
-            <span>Sep</span>
-            <strong>Diagnóstico</strong>
-          </div>
-          <div class="month active">
-            <span>Oct</span>
-            <strong>Benchmarking</strong>
-          </div>
-          <div class="month">
-            <span>Nov</span>
-            <strong>Marco EBI</strong>
-          </div>
-          <div class="month">
-            <span>Dic</span>
-            <strong>Servicios</strong>
-          </div>
-          <div class="month">
-            <span>Ene</span>
-            <strong>Pilotos</strong>
-          </div>
-          <div class="month">
-            <span>Feb</span>
-            <strong>Impacto</strong>
-          </div>
-        </div>
-        <div class="visual-legend roadmap-legend reveal" aria-label="Leyenda del calendario visual">
-          <span><i class="swatch maroon"></i> Fase activada</span>
-          <span><i class="swatch muted"></i> Fase programada</span>
-        </div>
-        <div class="knowledge-hub reveal" aria-label="Propuesta de base de conocimiento Moodle">
-          <div class="knowledge-icon"><svg><use href="#icon-layers" /></svg></div>
-          <div>
-            <p class="eyebrow dark">Base de conocimiento</p>
-            <h3>Moodle en lugar de Google Drive para el conocimiento pedagógico</h3>
-            <p>
-              La documentación del plan puede organizarse en Moodle porque es un
-              entorno educativo, con control de accesos, trazabilidad, estructura
-              por cursos o etapas y mayor capacidad para ordenar recursos, guías,
-              criterios, evidencias y buenas prácticas.
-            </p>
-          </div>
-          <div class="knowledge-points">
-            <span>Repositorio por etapas</span>
-            <span>Permisos y seguridad</span>
-            <span>Recursos versionados</span>
-            <span>Seguimiento de uso</span>
-          </div>
-        </div>
-      </section>
+        <div class="roadmap-summary reveal" aria-label="Roadmap cursos 2026-2027 a 2028-2029">
+          <div class="roadmap-head">Curso</div>
+          <div class="roadmap-head">Etapas foco</div>
+          <div class="roadmap-head">Qué se trabaja</div>
+          <div class="roadmap-head">Resultado</div>
 
-      <section class="three-year-plan" id="horizonte" aria-labelledby="horizon-title">
-        <div class="section-heading reveal">
-          <p class="eyebrow dark">Horizonte EBI 2030</p>
-          <h2 id="horizon-title">Una hoja de ruta a tres años para gobernar, desplegar y demostrar impacto</h2>
-          <p>
-            La propuesta no se agota en 2026-2027. El plan debe ordenar tres
-            años de evolución: revisar el sistema, consolidarlo por etapas y
-            convertirlo en valor visible para la comunidad educativa.
-          </p>
+          <div class="roadmap-year y1">2026-2027</div>
+          <div>Escuelita + Infantil + 1º-2º Primaria.</div>
+          <div>Rutinas, vínculo, lenguaje oral, Descubriendo, lectoescritura inicial, centros de aprendizaje, primeras guías, Moodle inicial y gptEBI piloto.</div>
+          <div>Una base clara y viable para las etapas donde se construyen hábitos, lenguaje y autonomía.</div>
+
+          <div class="roadmap-year y2">2027-2028</div>
+          <div>3º-6º Primaria.</div>
+          <div>Guías de aprendizaje, autonomía progresiva, evaluación práctica, banco de recursos y continuidad con Infantil.</div>
+          <div>Primaria comparte un lenguaje común y conecta mejor el paso hacia Secundaria.</div>
+
+          <div class="roadmap-year y3">2028-2029</div>
+          <div>ESO, Bachillerato y FP.</div>
+          <div>Aplicación EBI por materia, evaluación competencial, IA con criterio, orientación académica y evidencias de impacto.</div>
+          <div>El modelo se despliega en todo el colegio con coherencia entre etapas y comunicación de valor.</div>
         </div>
-
-        <div class="horizon-grid reveal" aria-label="Visión a tres años">
-          <article class="horizon-card">
-            <span>Año 1 · 2026-2027</span>
-            <h3>Revisar, clarificar y pilotar</h3>
-            <p>Diagnóstico EBI, benchmarking, mapa por etapas, primeros pilotos y base Moodle.</p>
-          </article>
-          <article class="horizon-card">
-            <span>Año 2 · 2027-2028</span>
-            <h3>Consolidar por etapas</h3>
-            <p>Equipos impulsores, formación interna, recursos comunes y prácticas validadas.</p>
-          </article>
-          <article class="horizon-card">
-            <span>Año 3 · 2028-2029</span>
-            <h3>Escalar, medir y comunicar</h3>
-            <p>Modelo maduro, indicadores estables, cultura compartida y comunicación de valor.</p>
-          </article>
+        <div class="annual-rhythm reveal" aria-label="Ritmo anual tipo">
+          <span><b>Sep</b> escuchar</span>
+          <span><b>Oct-Nov</b> revisar guías</span>
+          <span><b>Dic-Feb</b> pilotar</span>
+          <span><b>Mar-Abr</b> ajustar</span>
+          <span><b>May</b> medir fricción</span>
+          <span><b>Jun</b> decidir y comunicar</span>
         </div>
-
-        <div class="multi-roadmap reveal" aria-label="Roadmap trimestral 2026-2029">
-          <div class="roadmap-title-cell">Curso</div>
-          <div class="roadmap-title-cell">T1</div>
-          <div class="roadmap-title-cell">T2</div>
-          <div class="roadmap-title-cell">T3</div>
-          <div class="roadmap-title-cell">Cierre</div>
-
-          <div class="roadmap-year">2026-2027</div>
-          <div class="roadmap-quarter active"><strong>Diagnóstico EBI</strong><span>Voz Docente · familias · alumnado</span></div>
-          <div class="roadmap-quarter active"><strong>Benchmarking</strong><span>Referentes · IA · bienestar</span></div>
-          <div class="roadmap-quarter"><strong>Mapa EBI</strong><span>Etapas · herramientas · evidencias</span></div>
-          <div class="roadmap-quarter"><strong>Pilotos</strong><span>Laboratorio EBI · Moodle inicial</span></div>
-
-          <div class="roadmap-year">2027-2028</div>
-          <div class="roadmap-quarter"><strong>Formación docente</strong><span>Microcredenciales internas</span></div>
-          <div class="roadmap-quarter"><strong>Equipos impulsores</strong><span>Etapas · coordinación · mentoría</span></div>
-          <div class="roadmap-quarter"><strong>Recursos validados</strong><span>Moodle · versiones · buenas prácticas</span></div>
-          <div class="roadmap-quarter"><strong>Primer panel</strong><span>Indicadores trimestrales</span></div>
-
-          <div class="roadmap-year">2028-2029</div>
-          <div class="roadmap-quarter"><strong>Escalado</strong><span>Herramientas comunes por etapa</span></div>
-          <div class="roadmap-quarter"><strong>Impacto</strong><span>Evidencias · autonomía · familias</span></div>
-          <div class="roadmap-quarter"><strong>Comunicación</strong><span>Infografías · muestra anual</span></div>
-          <div class="roadmap-quarter"><strong>EBI visible</strong><span>Memoria pedagógica 2029</span></div>
-        </div>
-        <div class="visual-legend roadmap-legend reveal" aria-label="Leyenda del roadmap 2026-2029">
-          <span><i class="swatch maroon"></i> Inicio estratégico</span>
+        <div class="legend reveal">
+          <span><i class="swatch maroon"></i> Orden y pilotos</span>
           <span><i class="swatch gold"></i> Consolidación</span>
-          <span><i class="swatch navy"></i> Escalado e impacto</span>
+          <span><i class="swatch navy"></i> Impacto y comunicación</span>
         </div>
+        <div class="first-100 reveal" aria-label="Plan de primeros 100 días">
+          <div class="section-heading compact">
+            <p class="eyebrow dark">Primeros 100 días</p>
+            <h3>Diagnosticar, priorizar y pilotar sin prometer una transformación inmediata</h3>
+          </div>
+          <div class="month-plan">
+            <article>
+              <span>Septiembre</span>
+              <p>Definir organigrama, roles, referentes, calendario de aula y dos focos: Descubriendo y guías de Primaria.</p>
+            </article>
+            <article>
+              <span>Octubre</span>
+              <p>Observación en aula, mapa de fricciones, auditoría rápida de guías y Sites, plantilla común y primer uso de gptEBI.</p>
+            </article>
+            <article>
+              <span>Noviembre</span>
+              <p>Primer piloto de mejora, revisión de materiales de Infantil, estructura Moodle y validación con subdirecciones.</p>
+            </article>
+            <article>
+              <span>Diciembre</span>
+              <p>Informe breve: observado, mejorado, carga reducida y decisiones para escalar.</p>
+            </article>
+          </div>
+        </div>
+        <div class="versions-block reveal" aria-label="Versión mínima viable y versión completa">
+          <article>
+            <span>Versión mínima 2026-2027</span>
+            <p>Raquel como responsable de innovación aplicada, perfil pedagógico con horas asignadas, foco en Escuelita + Infantil + 1º-2º Primaria, gptEBI piloto y Moodle inicial.</p>
+          </article>
+          <article>
+            <span>Versión completa 2027-2028</span>
+            <p>Dirección consolidada, horario estable de aula, perfil pedagógico definido, extensión a 3º-6º Primaria, banco de guías actualizado, Moodle estructurado e indicadores.</p>
+          </article>
+        </div>
+      </section>
 
-        <div class="governance-section reveal" aria-label="Mapa de gobernanza del plan">
-          <div class="governance-copy">
-            <p class="eyebrow dark">Gobernanza</p>
-            <h3>Quién lidera, quién acompaña y quién aporta evidencias</h3>
-            <p>
-              El plan necesita estructura para no depender solo de personas
-              concretas: liderazgo claro, equipos por etapa, canales de escucha y
-              una base común de conocimiento.
+      <section class="governance-impact" id="impacto" aria-labelledby="impacto-title">
+        <div class="section-heading reveal">
+          <p class="eyebrow dark">Impacto sin inventar datos</p>
+          <h2 id="impacto-title">Qué se mide para saber si el plan funciona</h2>
+        </div>
+        <div class="two-column">
+          <div class="impact-card reveal">
+            <h3>Indicadores de acompañamiento</h3>
+            <div class="indicator-board" aria-label="Indicadores de seguimiento">
+              <span>Claridad docente</span>
+              <span>Reducción de carga</span>
+              <span>Guías revisadas</span>
+              <span>Recursos Moodle</span>
+              <span>Pilotos validados</span>
+              <span>Evidencias de aula</span>
+              <span>Uso de gptEBI</span>
+              <span>Lenguaje común</span>
+              <span>Coherencia entre etapas</span>
+            </div>
+            <div class="saved-time">
+              <strong>Indicador clave: tiempo docente ahorrado</strong>
+              <p>Ejemplo: esta plantilla reduce 30 minutos de preparación por guía o evita buscar materiales en seis carpetas distintas.</p>
+            </div>
+          </div>
+          <div class="evidence-card reveal">
+            <h3>Medición de impacto con Complutense y MESE</h3>
+            <div class="evidence-list">
+              <span><b>Piloto 2025-2026</b> inicio del trabajo de medición con la Universidad Complutense y el grupo de investigación MESE.</span>
+              <span><b>Aula</b> observaciones, notas de campo, productos, ajustes y evidencias de aprendizaje.</span>
+              <span><b>Profesorado</b> Voz Docente, utilidad percibida, fricción y tiempo docente ahorrado.</span>
+              <span><b>Guías</b> coherencia visual, lenguaje común, alineación EBI y actualización curricular.</span>
+              <span><b>Familias y alumnado</b> comprensión del modelo, autonomía, participación y sentido del aprendizaje.</span>
+            </div>
+            <p class="data-note">
+              La alianza permite pasar de una medición interna básica a una
+              lectura más rigurosa del impacto pedagógico, sin inventar cifras y
+              fijando primero línea base.
             </p>
           </div>
-          <div class="governance-map">
-            <div class="governance-center">EBI se hace aula</div>
-            <span class="gov-node top">Dirección</span>
-            <span class="gov-node right">Departamento de Innovación</span>
-            <span class="gov-node bottom">Subdirecciones de etapa</span>
-            <span class="gov-node left">Orientación</span>
-            <span class="gov-node small one">Coordinadores</span>
-            <span class="gov-node small two">Docentes impulsores</span>
-            <span class="gov-node small three">Familias y alumnado</span>
-          </div>
         </div>
-
-        <div class="maturity-block reveal" aria-label="Modelo de madurez EBI por etapa">
-          <div class="section-heading compact">
-            <p class="eyebrow dark">Modelo de madurez EBI</p>
-            <h3>De entender EBI a hacerlo medible, compartido y visible</h3>
+        <div class="research-impact reveal" aria-label="Alianza de medición de impacto">
+          <div>
+            <p class="eyebrow dark">Alianza de investigación</p>
+            <h3>Complutense + grupo MESE</h3>
+            <p>
+              La medición de impacto se incorpora como línea estratégica porque
+              ya se ha empezado a pilotar en el curso 2025-2026. El objetivo es
+              conectar evidencias de aula, percepción docente y resultados de
+              aprendizaje para tomar mejores decisiones.
+            </p>
           </div>
-          <div class="maturity-grid">
-            <div class="maturity-head">Etapa</div>
-            <div class="maturity-head">Nivel 1</div>
-            <div class="maturity-head">Nivel 2</div>
-            <div class="maturity-head">Nivel 3</div>
-            <div class="maturity-head">Nivel 4</div>
-
-            <div class="maturity-stage">Escuelita e Infantil</div>
-            <div class="maturity-cell understood">EBI entendido</div>
-            <div class="maturity-cell applied">Herramientas comunes</div>
-            <div class="maturity-cell accompanied">Acompañado</div>
-            <div class="maturity-cell visible">Visible</div>
-
-            <div class="maturity-stage">Primaria</div>
-            <div class="maturity-cell understood">Lenguaje común</div>
-            <div class="maturity-cell applied">Centros y guías</div>
-            <div class="maturity-cell accompanied">Documentado</div>
-            <div class="maturity-cell visible">Compartido</div>
-
-            <div class="maturity-stage">ESO</div>
-            <div class="maturity-cell understood">Criterios claros</div>
-            <div class="maturity-cell applied">Órbitas y citas</div>
-            <div class="maturity-cell accompanied">Pilotos validados</div>
-            <div class="maturity-cell visible">Impacto medido</div>
-
-            <div class="maturity-stage">Bachillerato y FP</div>
-            <div class="maturity-cell understood">Autonomía definida</div>
-            <div class="maturity-cell applied">Portfolio e IA</div>
-            <div class="maturity-cell accompanied">Transferencia</div>
-            <div class="maturity-cell visible">Valor comunicado</div>
-          </div>
-          <div class="visual-legend stage-legend">
-            <span><i class="swatch muted"></i> Nivel 1: entendido</span>
-            <span><i class="swatch gold"></i> Nivel 2: aplicado</span>
-            <span><i class="swatch maroon"></i> Nivel 3: acompañado</span>
-            <span><i class="swatch navy"></i> Nivel 4: medido y visible</span>
-          </div>
-        </div>
-
-        <div class="indicator-years reveal" aria-label="Indicadores por año">
-          <div class="section-heading compact">
-            <p class="eyebrow dark">Indicadores por año</p>
-            <h3>Qué registrar sin inventar cifras</h3>
-          </div>
-          <div class="year-indicator-grid">
-            <div class="indicator-name">Indicador</div>
-            <div class="indicator-year">2026-2027</div>
-            <div class="indicator-year">2027-2028</div>
-            <div class="indicator-year">2028-2029</div>
-
-            <div>Claridad docente</div><span>línea base</span><span>mejora por etapa</span><span>tendencia consolidada</span>
-            <div>Reducción de carga</div><span>fricciones detectadas</span><span>herramientas simplificadas</span><span>percepción comparada</span>
-            <div>Uso de herramientas EBI</div><span>mapa inicial</span><span>implantación guiada</span><span>uso estable</span>
-            <div>Recursos Moodle</div><span>estructura</span><span>recursos validados</span><span>base viva</span>
-            <div>Pilotos validados</div><span>3-5 pilotos</span><span>transferencia</span><span>escalado</span>
-            <div>Evidencias de aula</div><span>modelo de ficha</span><span>portfolio por etapa</span><span>memoria anual</span>
-            <div>Percepción de familias</div><span>preguntas base</span><span>infografías</span><span>comprensión del modelo</span>
-            <div>Autonomía del alumnado</div><span>criterios</span><span>seguimiento</span><span>evidencias comparables</span>
-            <div>Coherencia entre etapas</div><span>diagnóstico</span><span>acuerdos comunes</span><span>continuidad visible</span>
-          </div>
-        </div>
-
-        <div class="risk-portfolio reveal" aria-label="Riesgos y mitigaciones">
-          <div class="section-heading compact">
-            <p class="eyebrow dark">Riesgos y mitigación</p>
-            <h3>Qué puede bloquear el plan y cómo reducirlo</h3>
-          </div>
-          <div class="risk-grid">
-            <article><strong>Carga docente</strong><span>Simplificación y acompañamiento.</span></article>
-            <article><strong>Dispersión</strong><span>Pocas prioridades por año.</span></article>
-            <article><strong>Dependencia de personas</strong><span>Documentación viva en Moodle.</span></article>
-            <article><strong>Falta de evidencias</strong><span>Panel trimestral sencillo.</span></article>
-            <article><strong>Comunicación débil</strong><span>Relato e infografías por etapa.</span></article>
-          </div>
-        </div>
-
-        <div class="project-portfolio reveal" aria-label="Portfolio de proyectos estratégicos 2026-2029">
-          <div class="section-heading compact">
-            <p class="eyebrow dark">Portfolio estratégico</p>
-            <h3>Ocho proyectos para sostener el cambio</h3>
-          </div>
-          <div class="portfolio-grid">
-            <span>EBI en una página por etapa</span>
-            <span>Clínica de guías</span>
-            <span>Laboratorio EBI</span>
-            <span>Moodle pedagógico</span>
-            <span>IA educativa con criterio</span>
-            <span>Muestra anual EBI se hace aula</span>
-            <span>Panel de impacto pedagógico</span>
-            <span>Microcredenciales internas</span>
-          </div>
-        </div>
-
-        <div class="annual-evidence reveal" aria-label="Calendario anual y mapa de evidencias">
-          <div class="annual-cycle">
-            <p class="eyebrow dark">Calendario anual tipo</p>
-            <h3>Un ritmo institucional repetible</h3>
-            <div class="cycle-grid">
-              <span>Sep<br><b>Escuchar</b></span>
-              <span>Oct-Nov<br><b>Diseñar</b></span>
-              <span>Dic-Feb<br><b>Pilotar</b></span>
-              <span>Mar-Abr<br><b>Ajustar</b></span>
-              <span>May<br><b>Medir</b></span>
-              <span>Jun<br><b>Comunicar</b></span>
-            </div>
-          </div>
-          <div class="evidence-map">
-            <p class="eyebrow dark">Mapa de evidencias</p>
-            <h3>Qué se recoge y dónde</h3>
-            <div class="evidence-source-grid">
-              <span><b>Aula</b> observaciones, productos, portfolios</span>
-              <span><b>Profesorado</b> Voz Docente, utilidad, carga</span>
-              <span><b>Moodle</b> recursos, versiones, uso</span>
-              <span><b>Familias</b> comprensión del modelo</span>
-              <span><b>Alumnado</b> autonomía, participación, sentido</span>
-            </div>
-          </div>
-        </div>
-
-        <div class="scenario-2029 reveal" aria-label="Escenario final 2029">
-          <p class="eyebrow">Escenario final 2029</p>
-          <h3>En 2029, Santa María la Blanca podrá decir que...</h3>
-          <div class="scenario-grid">
-            <span>EBI se entiende por etapas.</span>
-            <span>El profesorado tiene acompañamiento real.</span>
-            <span>Moodle recoge la cultura pedagógica del colegio.</span>
-            <span>Las familias comprenden el valor diferencial.</span>
-            <span>La innovación se decide con evidencias.</span>
-            <span>El colegio comunica un modelo propio, vivo y actual.</span>
+          <div class="research-grid">
+            <span>Línea base de impacto</span>
+            <span>Indicadores pedagógicos</span>
+            <span>Evidencias comparables</span>
+            <span>Decisiones con datos</span>
           </div>
         </div>
       </section>
 
-      <section class="synthesis" aria-labelledby="synthesis-title">
-        <div class="synthesis-copy reveal">
-          <p class="eyebrow">Síntesis</p>
-          <h2 id="synthesis-title">De pedir al profesorado que innove a ayudarle a innovar con sentido</h2>
-          <p>
-            El Departamento de Innovación debe convertirse en una estructura
-            pedagógica que cuide al profesorado, fortalezca EBI, escuche la
-            realidad del aula, genere recursos útiles y haga visible el impacto
-            de la innovación en el aprendizaje de los alumnos.
-          </p>
+      <section class="closing-section" id="cierre" aria-labelledby="cierre-title">
+        <div class="closing-copy reveal">
+          <p class="eyebrow">Escenario final 2029-2030</p>
+          <h2 id="cierre-title">En el curso 2029-2030, Santa María la Blanca podrá decir que...</h2>
         </div>
-        <div class="synthesis-line reveal">
-          <strong>La innovación no debe ser una carga añadida.</strong>
-          <span>Debe ser una ayuda concreta para enseñar mejor.</span>
+        <div class="closing-grid reveal">
+          <span>El Departamento de Innovación es reconocido como acompañamiento pedagógico.</span>
+          <span>EBI tiene un lenguaje común sin borrar la identidad de cada etapa.</span>
+          <span>Las guías son claras, visuales, coherentes y útiles para el aula.</span>
+          <span>Moodle recoge la cultura pedagógica del colegio de forma segura.</span>
+          <span>La innovación reduce fricción docente y no añade carga innecesaria.</span>
+          <span>El colegio comunica un modelo propio, vivo, actualizado y medible.</span>
+        </div>
+        <div class="closing-statement reveal">
+          <strong>No proponemos hacer más innovación.</strong>
+          <span>Proponemos ordenar, acompañar y actualizar el sistema para que EBI se viva de forma real, coherente y sostenible en el aula.</span>
+        </div>
+      </section>
+
+      <section class="moodle-section" aria-labelledby="moodle-title">
+        <div class="moodle-panel reveal">
+          <div>
+            <p class="eyebrow">Base de conocimiento CSMB</p>
+            <h2 id="moodle-title">Moodle como alternativa ordenada a Drive y Sites dispersos</h2>
+            <p>
+              Moodle no se plantea para que lo usen los niños pequeños con
+              dispositivos, sino como base profesional del conocimiento docente:
+              materiales, guías, proyectos, rúbricas, versiones, buenas prácticas
+              y recursos de etapa con permisos claros.
+            </p>
+          </div>
+          <div class="moodle-benefits" aria-label="Beneficios de Moodle">
+            <span>Etapa > curso > proyecto</span>
+            <span>Permisos por rol</span>
+            <span>Material protegido</span>
+            <span>Versiones controladas</span>
+            <span>Plantillas comunes</span>
+            <span>Buscador pedagógico</span>
+          </div>
+        </div>
+        <div class="migration-plan reveal" aria-label="Migración Moodle sin carga docente">
+          <div>
+            <p class="eyebrow">Migración sin carga docente</p>
+            <h3>El docente valida; Innovación organiza y migra</h3>
+            <p>
+              La transición desde Drive y Sites debe hacerse por fases para no
+              convertir Moodle en una tarea más para el profesorado.
+            </p>
+          </div>
+          <div class="migration-steps">
+            <span><b>1</b> Inventario de Sites, Drive y carpetas.</span>
+            <span><b>2</b> Clasificación por etapa, curso, proyecto y tipo de recurso.</span>
+            <span><b>3</b> Plantilla común de Moodle.</span>
+            <span><b>4</b> Migración inicial realizada por Innovación.</span>
+            <span><b>5</b> Validación rápida por subdirección o referente.</span>
+            <span><b>6</b> Permisos cerrados y versiones protegidas.</span>
+          </div>
         </div>
       </section>
     </main>
 
-    <footer class="site-footer">
-      <span>EBI se hace aula · Plan de acompañamiento pedagógico 2026</span>
-      <strong>Colegio Santa María la Blanca</strong>
-    </footer>
-
-    <button class="to-top" type="button" aria-label="Volver arriba">
-      <svg><use href="#icon-arrow" /></svg>
-    </button>
-
-    <script src="script.js"></script>
+    <script src="resumen.js"></script>
   </body>
 </html>

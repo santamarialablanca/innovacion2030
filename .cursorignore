@@ -1,0 +1,16 @@
+.git/
+.cursor/
+.DS_Store
+
+assets/
+*.png
+*.jpg
+*.jpeg
+*.webp
+*.svg
+
+node_modules/
+dist/
+build/
+.cache/
+.vscode/
